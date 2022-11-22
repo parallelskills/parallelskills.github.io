@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Free Quick Assessment",
+    "description": "New learners receive an obligation free quick assessment.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Course Completion Certificates",
+    "description": "All trainees obtain course completion certificates on our official letterhead upon graduation.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Computerized Invoice & Multiple Payment Methods",
+    "description": "We offer multiple payment mentods and provide invoice for all payments.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

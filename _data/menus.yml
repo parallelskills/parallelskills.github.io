@@ -1,0 +1,54 @@
+main:
+  - name: "Services"
+    url: "/services"
+    target: "self"
+    weight: 2
+  - name: "Team"
+    url: "/team"
+    target: "self"
+    weight: 3
+  - name: "About"
+    url: "/about"
+    target: "self"
+    weight: 4
+  - name: "Careers"
+    url: "/careers"
+    target: "self"
+    weight: 5
+  - name: "Blog"
+    url: "/blog"
+    target: "self"
+    weight: 6
+  - name: "Contact"
+    url: "/contact"
+    target: "self"
+    weight: 7
+  - name: "Course Login"
+    url: "https://elearn.parallelskills.com"
+    target: "blank"
+    weight: 8
+footer:
+  - name: "Home"
+    url: "/"
+    target: "self"
+    weight: 1
+  - name: "Careers"
+    url: "/careers"
+    target: "self"
+    weight: 2
+  - name: "Blog"
+    url: "/blog"
+    target: "self"
+    weight: 3
+  - name: "Contact"
+    url: "/contact"
+    target: "self"
+    weight: 4
+  - name: "Client Portal"
+    url: "https://invoice.zoho.in/portal/parallelskills"
+    target: "blank"
+    weight: 5
+  - name: "Course Login"
+    url: "https://elearn.parallelskills.com/"
+    target: "blank"
+    weight: 6

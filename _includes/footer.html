@@ -1,0 +1,24 @@
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">{{site.title}}</h2>
+          <ul>
+            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+            {% for item in footermenu %}
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              {%if item.target == "blank" %}
+              <a href="{{ item.url | relative_url }}" target="_blank">{{ item.name }}</a>
+              {% endif %}
+              {%if item.target == "self" %}
+              <a href="{{ item.url | relative_url }}" target="_self">{{ item.name }}</a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
